@@ -18,6 +18,7 @@
  */
 
 const { spawn } = require("child_process");
+const keep_alive = require('./keep_alive.js')
 const log = require("./logger/log.js");
 
 function startProject() {
