@@ -36,4 +36,4 @@ function startProject() {
 	});
 }
 
-startProject();
+client.login(process.env.TOKEN); //login bot using token
